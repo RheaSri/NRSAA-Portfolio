@@ -10,8 +10,8 @@ import { useTheme } from "../hooks/useTheme";
 const navItems = [
   { name: "Home", href: "/#hero", type: "section" },
   { name: "About", href: "/#about", type: "section" },
-  { name: "Technology", href: "/technology#project", type: "section" },
-  { name: "Achievements", href: "/achievements", type: "section" },
+  { name: "Technology", href: "/technology", type: "page" },
+  { name: "Achievements", href: "/achievements", type: "page" },
 ];
 
 export const Navbar = () => {
