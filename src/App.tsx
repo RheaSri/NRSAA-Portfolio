@@ -4,11 +4,12 @@ import { Home } from "./pages/Home";
 import { Technology } from "./pages/Technology";
 import { ScrollToHash } from "./components/ScrollToHash";
 import { Achievement } from "./pages/Achievements";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
-
+      <ScrollToTop />
       <ScrollToHash />
 
       <Routes>
